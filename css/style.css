@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	outline: none;
+}
+body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: #2d2d2d;
+	transition: .3s linear;
+}
+.form-content {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 400px;
+	height: 200px;
+	transition: .5s linear;
+	background-color: #ffffff;
+	transform: translate(0px, 250px);
+}
+fieldset {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border: none;
+	padding-top: 20px;
+	transition: .6s linear;
+}
+legend {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-decoration: underline;
+	font-size: 30px;
+	font-weight: 900;
+	transition: .7s linear;
+}
+input {
+	display: block;
+	transition: .8s linear;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 280px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: 1px solid #2d2d2d;
+	border-radius: 10px;
+	font-size: 18px;
+	color: #2d2d2d;
+}
+input:hover {
+	display: block;
+	border-color: indigo;
+	justify-content: center;
+	width: 320px;
+	transition: .1s;
+}
+input:focus {
+	display: block;
+	border-color: indigo;
+	justify-content: center;
+	width: 320px;
+	transition: .1s;
+}
+a {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	transition: .9s linear;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 70px;
+	color: white;
+	border: 1px solid #2d2d2d;
+	background-color: #2d2d2d;
+}
+a:hover {
+	color: #2d2d2d;
+	background-color: white;
+	transition: .2s linear;
+}
